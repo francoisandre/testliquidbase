@@ -1,0 +1,1 @@
+liquibase --driver=org.mariadb.jdbc.Driver --classpath=D:/sirhen_v3/repo/.m2/org/mariadb/jdbc/mariadb-java-client/2.2.1/mariadb-java-client-2.2.1.jar --changeLogFile="C:/Users/fandre5/tmp/changelog.xml" --url="jdbc:mariadb://localhost:3306/test" --username=root --password=root generateChangeLog
